@@ -11,3 +11,12 @@ CWinApp类成员变量:
   LPCTSTR m_pszHelpFileName
   
 CWinApp类成员函数:
+  LoadIcon  LoadIcon(AfxGetInstance(),LPCTSTR);//调用系统图标则第一个参数句柄为NULL
+  LoadCursor setcursor 不能在初始化中InitInstance函数设置 
+  writeProfileInt()
+ ... 
+  
+ 
+ 
+派生类的CRECT 和RECT
+ CRECT 有操作符重载可以自动转换成指针地址进行参数传递 GetWindowsRect(rect)
