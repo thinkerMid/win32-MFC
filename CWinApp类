@@ -1,0 +1,13 @@
+CWinApp类成员变量:
+  LPCSTR m_pszAppName
+    1.第一优先是构造函数中送入的值
+    2.加载字符串表中的AFX_IDS_APP_TITLE
+    3.去找执行文件的内容
+  HISNTANCE m_hinstance
+  LPTSTR m_lpCmdLine
+  int m_nCmdShow
+  LPCTSTR m_pszProfileName
+  LPCTSTR m_pszExeName
+  LPCTSTR m_pszHelpFileName
+  
+CWinApp类成员函数:
